@@ -1,0 +1,109 @@
+html {
+  font-size: 62.5%; }
+
+/*FORMATO BODY*/
+body {
+  font-family: 'Merriweather Sans', sans-serif;
+  font-size: 1.6rem;
+  color: #318576;
+  background-image: url(imagenes_css/fondo14.jpg);
+  background-size: cover;
+  text-align: center; }
+
+div div div {
+  margin-top: 10px;
+  margin-bottom: 10px; }
+
+/*FORMATO DE LOS TITULOS*/
+header {
+  color: #3055F0;
+  font-size: 2rem;
+  font-family: 'Montserrat', sans-serif;
+  font-style: italic;
+  font-weight: bolder;
+  text-decoration: underline;
+  border-radius: 25px;
+  border: 2px solid #8421D9;
+  width: max-content;
+  margin: auto;
+  padding: 20px; }
+
+.titulo__subtitulo {
+  color: #3055F0;
+  font-style: italic;
+  text-decoration: underline; }
+
+.animate_animated.animate__fadeInDown {
+  animation-duration: 1s;
+  animation-timing-function: ease-in; }
+
+/*LOGO*/
+.logo {
+  height: 80px;
+  width: 100px; }
+
+/*FORMATO MENU*/
+nav ul li a:hover {
+  transition: all 0.5s;
+  background-color: #318576; }
+
+/*FORMATO INDEX*/
+.img-fluid {
+  max-width: 100%;
+  height: auto; }
+
+.index__parrafos {
+  font-weight: bold;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: auto;
+  margin-bottom: auto; }
+
+.index__parrafos--izquierdo {
+  color: #8421D9; }
+
+/*FORMATO QUE NECESITO*/
+table tr th {
+  color: #3055F0;
+  font-size: 2.8rem;
+  text-decoration: underline;
+  font-weight: bold; }
+
+table tr {
+  color: #318576; }
+
+.tabla__corrientes {
+  color: #8421D9;
+  text-decoration: underline;
+  font-weight: bold; }
+
+/*FORMATO TARIFAS*/
+.tarifas__parrafos {
+  font-style: italic;
+  text-decoration: underline;
+  font-weight: bold;
+  margin-top: 80px; }
+
+.tarifas__parrafos:hover {
+  transform: scale(1.2);
+  transition: all 0.5s; }
+
+/*FORMATO COMO LLEGAR*/
+.consultorios__carousel {
+  max-width: 100%;
+  height: auto;
+  margin: auto; }
+
+/*FORMATO CONTACTENOS*/
+.form-group {
+  background-color: white;
+  border-radius: 25px;
+  border: 2px solid #8421D9;
+  width: auto;
+  margin: auto;
+  padding: 20px; }
+
+/*pie de pagina*/
+footer {
+  text-align: right;
+  color: black; }
