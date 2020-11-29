@@ -103,6 +103,9 @@ table tr {
   margin: auto;
   padding: 20px; }
 
+.form-control {
+  font-size: 1.5rem; }
+
 /*pie de pagina*/
 footer {
   text-align: right;
